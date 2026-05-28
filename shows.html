@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>APEX WA — Shows</title>
+<title>ICWW — Shows</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
 <body>
 <div class="grain"></div>
 <header class="nav">
-  <a href="index.html" class="logo">APEX<span>WA</span></a>
+  <a href="index.html" class="logo">IC<span>WW</span></a>
   <nav class="nav-links">
     <a href="index.html">Home</a>
     <a href="roster.html">Roster</a>
@@ -21,53 +21,61 @@
     <a href="join.html">Join</a>
   </nav>
   <a href="join.html" class="nav-cta">Sign Up</a>
-  <button class="burger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">☰</button>
+  <button class="burger" aria-label="Menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">&#9776;</button>
 </header>
 
 <section class="page-header">
-  <span class="eyebrow">Events & Results</span>
+  <span class="eyebrow">Events &amp; Results</span>
   <h1>THE <span>SHOWS</span></h1>
-  <p>Upcoming cards, live events, and past results. RP deadlines listed for every booked show.</p>
+  <p>Two weekly brands: <strong>ICX</strong> (Indie Core Xtreme, main roster) and <strong>ICU</strong> (Indie Core Underground, developmental). RP deadlines listed for every booked show.</p>
 </section>
 
 <div class="shows-wrap">
   <div class="show-row">
     <div class="sr-date"><span class="d">14</span><span class="m">JUN</span></div>
     <div class="sr-info">
-      <h3>Friday Night Dominion</h3>
-      <p>Main Event: Cole Drexel (c) vs. Kenji Sato — World Title · RP deadline June 12</p>
+      <h3><span class="brand-tag tag-icx">ICX</span> Indie Core Xtreme #128</h3>
+      <p>Main Event: Cole Drexel (c) vs. Kenji Sato &mdash; World Title &middot; RP deadline June 12</p>
+    </div>
+    <span class="sr-status st-upcoming">Upcoming</span>
+  </div>
+  <div class="show-row">
+    <div class="sr-date"><span class="d">11</span><span class="m">JUN</span></div>
+    <div class="sr-info">
+      <h3><span class="brand-tag tag-icu">ICU</span> Indie Core Underground #54</h3>
+      <p>Main Event: Titus Mane vs. Grendel Wolfe &mdash; #1 Contender match &middot; RP deadline June 9</p>
     </div>
     <span class="sr-status st-upcoming">Upcoming</span>
   </div>
   <div class="show-row">
     <div class="sr-date"><span class="d">07</span><span class="m">JUN</span></div>
     <div class="sr-info">
-      <h3>Dominion #127</h3>
-      <p>Live now — promos being scored. Tag Title triple threat headlines.</p>
+      <h3><span class="brand-tag tag-icx">ICX</span> Indie Core Xtreme #127</h3>
+      <p>Live now &mdash; promos being scored. Tag Title triple threat headlines.</p>
     </div>
     <span class="sr-status st-live">Live</span>
   </div>
   <div class="show-row">
     <div class="sr-date"><span class="d">31</span><span class="m">MAY</span></div>
     <div class="sr-info">
-      <h3>APEX: BLOODLINE (PPV)</h3>
-      <p>Result: Cole Drexel def. Titus Mane to retain. Vera Cross & Nyx Kane win the tag titles.</p>
+      <h3><span class="brand-tag tag-ppv">PPV</span> ICWW: BLOODLINE</h3>
+      <p>Result: Cole Drexel def. Razor Zane to retain. Vera Cross &amp; Nyx Kane win the tag titles.</p>
+    </div>
+    <span class="sr-status st-done">Completed</span>
+  </div>
+  <div class="show-row">
+    <div class="sr-date"><span class="d">28</span><span class="m">MAY</span></div>
+    <div class="sr-info">
+      <h3><span class="brand-tag tag-icu">ICU</span> Indie Core Underground #53</h3>
+      <p>Result: Echo Marlow def. Nyx Kane. Titus Mane earns a call-up shot to ICX.</p>
     </div>
     <span class="sr-status st-done">Completed</span>
   </div>
   <div class="show-row">
     <div class="sr-date"><span class="d">24</span><span class="m">MAY</span></div>
     <div class="sr-info">
-      <h3>Dominion #126</h3>
-      <p>Result: Kenji Sato def. Razor Zane. Echo Marlow debuts with a win.</p>
-    </div>
-    <span class="sr-status st-done">Completed</span>
-  </div>
-  <div class="show-row">
-    <div class="sr-date"><span class="d">17</span><span class="m">MAY</span></div>
-    <div class="sr-info">
-      <h3>Dominion #125</h3>
-      <p>Result: Grendel Wolfe destroys the field in a battle royal. Number one contender crowned.</p>
+      <h3><span class="brand-tag tag-icx">ICX</span> Indie Core Xtreme #126</h3>
+      <p>Result: Kenji Sato def. Razor Zane in a number one contender match.</p>
     </div>
     <span class="sr-status st-done">Completed</span>
   </div>
@@ -76,16 +84,16 @@
 <section class="cta">
   <div class="cta-inner">
     <h2>WANT IN ON THE <span>NEXT CARD?</span></h2>
-    <p>Booked competitors get promo slots every week. Sign up today.</p>
-    <a href="join.html" class="btn btn-primary">Join the Roster →</a>
+    <p>Booked competitors get promo slots every week on ICX or ICU. Sign up today.</p>
+    <a href="join.html" class="btn btn-primary">Join the Roster &rarr;</a>
   </div>
 </section>
 
 <footer class="footer">
-  <div class="footer-logo">APEX<span>WA</span></div>
-  <p>Apex Wrestling Alliance is a fictional e-fed for creative roleplay. All characters are original works of their creators.</p>
+  <div class="footer-logo">IC<span>WW</span></div>
+  <p>Indie Core World Wrestling is a fictional e-fed for creative roleplay. All characters are original works of their creators.</p>
   <div class="footer-links"><a href="roster.html">Roster</a><a href="shows.html">Shows</a><a href="titles.html">Titles</a><a href="join.html">Join</a></div>
-  <p class="copyright">© 2026 APEX Wrestling Alliance · An e-fed community</p>
+  <p class="copyright">&copy; 2026 Indie Core World Wrestling &middot; An e-fed community</p>
 </footer>
 <script src="script.js"></script>
 </body>

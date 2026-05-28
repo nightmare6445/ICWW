@@ -1,4 +1,4 @@
-# APEX Wrestling Alliance — E-Fed Website
+# Indie Core World Wrestling — E-Fed Website
 
 A complete, ready-to-host website for an electronic wrestling federation. Five pages, fully responsive, no build tools needed — just open and go.
 
@@ -40,7 +40,7 @@ Right now the form just shows a thank-you message (no backend). To receive real 
 ## Customizing it for YOUR fed
 Everything is plain HTML/CSS — no coding experience required to edit text.
 
-- **Fed name / logo:** search-replace `APEX` and `APEXWA` across the `.html` files.
+- **Fed name / logo:** search-replace `ICWW` and `ICWW` across the `.html` files.
 - **Colors:** open `styles.css`, edit the `:root` block at the top (`--red`, `--gold`, `--bg`, etc.).
 - **Wrestlers:** copy/paste a `.wrestler` block in `roster.html` and change the name, tag, and stats. The two letters in `.w-img` are initials; classes `w-face` / `w-heel` / `w-tweener` set the card color.
 - **Shows:** duplicate a `.show-row` in `shows.html`. Status classes: `st-upcoming`, `st-live`, `st-done`.

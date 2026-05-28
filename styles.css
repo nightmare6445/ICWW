@@ -225,3 +225,26 @@ section{padding:100px 6vw}
   .form-row{grid-template-columns:1fr}
   .hero-stats{gap:32px}
 }
+
+/* BRAND DIVIDERS & TAGS (ICWW) */
+.brand-divider{
+  display:flex;align-items:center;gap:14px;
+  max-width:1400px;margin:50px auto 0;padding:0 6vw;
+  font-family:'Oswald',sans-serif;text-transform:uppercase;letter-spacing:2px;
+  font-size:.9rem;color:var(--muted);font-weight:500;
+}
+.brand-divider span{
+  font-family:'Anton',sans-serif;font-size:1.4rem;letter-spacing:1px;
+  color:#fff;background:var(--red);padding:4px 14px;letter-spacing:2px;
+  clip-path:polygon(6px 0,100% 0,calc(100% - 6px) 100%,0 100%);
+}
+.brand-divider.icu span{background:var(--gold);color:#000}
+
+.brand-tag{
+  display:inline-block;font-family:'Anton',sans-serif;font-size:.85rem;
+  letter-spacing:1px;padding:2px 9px;margin-right:8px;vertical-align:middle;
+  clip-path:polygon(5px 0,100% 0,calc(100% - 5px) 100%,0 100%);
+}
+.tag-icx{background:var(--red);color:#fff}
+.tag-icu{background:var(--gold);color:#000}
+.tag-ppv{background:#fff;color:#000}
